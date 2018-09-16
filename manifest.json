@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Fr-Fr Persian Style",
+    "version": "0.1.0",
+    "description": "Friend Feed RTL & Persian style",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "matches": ["https://freefeed.net/*"]
+    }],
+    "permissions": [
+        "https://freefeed.net/"
+      ],
+      "web_accessible_resources": [
+        "fonts/Vazir-FD.eot",
+        "fonts/Vazir-FD.ttf",
+        "fonts/Vazir-FD.woff",
+        "fonts/Vazir-FD.woff2"
+    
+
+      ]
+    
+   
+  }
